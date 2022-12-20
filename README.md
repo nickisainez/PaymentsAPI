@@ -1,4 +1,4 @@
 Panel admin cuenta:
 -------------------
-user@gmail.com
-user
+#email: user@gmail.com
+#password: user
