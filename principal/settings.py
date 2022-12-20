@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'principal.wsgi.application'
 
 DATABASES = {
   'default': {
-    'ENGINE': 'django_psdb_engine',
+    'ENGINE': 'django.db.backends.mysql',
     'NAME': os.environ.get('DB_NAME'),
     'HOST': os.environ.get('DB_HOST'),
     'PORT': os.environ.get('DB_PORT'),
