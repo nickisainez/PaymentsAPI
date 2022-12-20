@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Todo, Service, Payment, ExpiredPayments
+from .models import Service, Payment, ExpiredPayments
 
 class ServiceSerializer(serializers.ModelSerializer):
     class Meta:
